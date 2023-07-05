@@ -8,7 +8,7 @@ const downloadButton = document.getElementById("download-button");
 function updateIframeSource() {
     const videoUrl = videoUrlInput.value;
     const videoFormat = videoFormatSelect.value;
-    const loaderToUrl = `https://loader.to/api/button/?url=${videoUrl}&f=${videoFormat}&color=3b82f6&linkUrl=https://www.mahbadgroup.ir`;
+    const loaderToUrl = `https://loader.to/api/button/?url=${videoUrl}&f=${videoFormat}&color=3b82f6&linkUrl=https://darktube-dl.netlify.app`;
     iframe.src = loaderToUrl;
 }
 
